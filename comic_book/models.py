@@ -2,19 +2,10 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import uuid
 from datetime import datetime
-
-# Flask Security for Passwords
 from werkzeug.security import generate_password_hash, check_password_hash
-
 import secrets
-
-#  Imports for Login Manager
 from flask_login import UserMixin
-
-# Imports for Flask Login
 from flask_login import LoginManager
-
-# Import for Flask-Marshmallow
 from flask_marshmallow import Marshmallow
 
 
